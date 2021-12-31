@@ -7,6 +7,8 @@ function Profile(props) {
             <div className='profile-parent'>
                 <div className='profile-details'>
                     <div className='colz'>
+                        <div className='colz-icon'>
+
                         <a href='https://www.facebook.com/'>
                             <i className='fab fa-facebook-f'></i>
                         </a>
@@ -19,7 +21,9 @@ function Profile(props) {
                         <a href='#'>
                             <i className='fab fa-linkedin-in'></i>
                         </a>
+                        </div>
                     </div>
+                    
                     <div className='profile-details-name'>
                         <span className='primary-text'>
                             {" "}
@@ -33,6 +37,7 @@ function Profile(props) {
                                 {" "}
                                 <Typical
                                 loop={Infinity} 
+                                speed={30}
                                 steps={[
                                     "Technical Recruiting",
                                     1000,
@@ -59,6 +64,9 @@ function Profile(props) {
                             <button className='btn highlighted-btn'>Get Resume</button>
                         </a>
                     </div>
+                </div>
+                <div className='profile-picture'>
+                <div className='profile-picture-backgroud'></div>
                 </div>
             </div>
         </div>
