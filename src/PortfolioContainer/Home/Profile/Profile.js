@@ -23,7 +23,7 @@ function Profile(props) {
                             <i className='fab fa-linkedin-in'></i>
                         </a>
                         </div>
-                    </div>
+                   
                     
                     <div className='profile-details-name'>
                         <span className='primary-text'>
@@ -66,12 +66,14 @@ function Profile(props) {
                         </a>
                     </div>
                 </div>
-                <div className='profile-picture'>
-                <div className='profile-picture-background'></div>
-                </div>
+                <div className="profile-picture">
+                <div className="profile-picture-background"></div>
             </div>
-        </div>
-    );
-}
+            </div>
+</div>
+            </div>
+        );
 
-export default Profile;
+        }
+
+        export default Profile;

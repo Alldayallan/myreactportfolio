@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from './PortfolioContainer/Home/Profile';
+import Profile from './PortfolioContainer/Home/Profile/Profile';
 
 import './App.css';
 
