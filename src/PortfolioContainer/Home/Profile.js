@@ -1,5 +1,6 @@
 import React from 'react';
 import Typical from 'react-typical';
+import './Profile.css';
 
 function Profile(props) {
     return (
@@ -15,10 +16,10 @@ function Profile(props) {
                         <a href='https://twitter.com/coding_always'>
                             <i className='fab fa-twitter'></i>
                         </a>
-                        <a href='#'>
+                        <a href='https://youtube.com'>
                             <i className='fab fa-youtube-square'></i>
                         </a>
-                        <a href='#'>
+                        <a href='https://linkedin.com'>
                             <i className='fab fa-linkedin-in'></i>
                         </a>
                         </div>
@@ -66,7 +67,7 @@ function Profile(props) {
                     </div>
                 </div>
                 <div className='profile-picture'>
-                <div className='profile-picture-backgroud'></div>
+                <div className='profile-picture-background'></div>
                 </div>
             </div>
         </div>
